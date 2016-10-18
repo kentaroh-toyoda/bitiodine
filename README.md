@@ -15,3 +15,9 @@ On Ubuntu:
 ```bash
 apt-get install libssl-dev cmake build-essential g++-4.4 libdb++-dev libboost-all-dev libsparsehash-dev git-core perl sqlite3 python3-numpy python3-simplejson python3-networkx libhiredis-dev libsqlite3-dev
 ```
+On Centos:
+
+```bash
+yum install openssl-devel cmake boost sparsehash-devel git-core perl sqlite hiredis-devel
+pip3 install numpy simplejson networkx 
+```
